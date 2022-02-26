@@ -4,14 +4,14 @@
 int main() {
     std::vector <int> vec {-2,1,-3,4,-1,2,1,-5,4};
     int sum_temp;
-    int sum_max=0;
+    int sum_max=vec[0];
     int min=0;
     int max=vec.size()-1;
 
-    for (int i=0; i<vec.size(); i++){
+    /*for (int i=0; i<vec.size(); i++){
         sum_max+=vec[i];
 
-    }
+    }*/
     //std::cout << sum_max << std::endl;
     for(int j=0; j<vec.size(); j++){
         sum_temp=0;
